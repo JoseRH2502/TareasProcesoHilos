@@ -141,6 +141,9 @@ double matrizPciclo(int tam){
 
  
 int main(void){
-   matrizPciclo(2);
+   int tam;
+   printf("Ingrese el tamaño de la matriz: ");
+   scanf("%d", &tam);  
+   matrizPciclo(tam);
 return 0;
 }

@@ -136,8 +136,10 @@ int MatrixT (int tam)
 
  
 int main(void){
-
-MatrixT(5);
+    int tam;
+    printf("Ingrese el tamaño de la matriz: ");
+    scanf("%d", &tam);  
+    MatrixT(tam);
 
 
 return 0;
