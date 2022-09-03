@@ -108,26 +108,6 @@ int **multiMatriz(int **matriz1, int **matriz2, int tam){
 }
 
 
-void imprimirMatriz(int** matriz, int tam){
- for(int fil = 0; fil < tam; fil++){
-      for(int col=0; col < tam; col++){
-           printf("%d ",matriz[fil][col]);
-       }
-        printf("\n");
-   }
-   printf("\n");
-}
-
-void liberarMemoria (int** matriz, int tam){
- for(int i = 0; i < tam; i++)
-     free(matriz[i]);
-free(matriz);
-  
-}
-
-
-
-
 int MatrixT (int tam)
 {   
     double promedioTiempo = 0.0;
